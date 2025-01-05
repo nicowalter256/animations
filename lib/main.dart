@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'views/animation_three.dart';
 import 'views/animation_two.dart';
 import 'views/home_screen.dart';
 
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SquidGameScreenThree(),
+      home: SquidGameScreenTwo(),
     );
   }
 }

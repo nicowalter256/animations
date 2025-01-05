@@ -24,7 +24,7 @@ class SquidGameShapesPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
       ..style = PaintingStyle.fill
-      ..color = Colors.redAccent; // Default shape color
+      ..color = Colors.blue; // Default shape color
 
     // Draw the Circle (representing the "O" shape)
     drawCircle(canvas, size, paint);

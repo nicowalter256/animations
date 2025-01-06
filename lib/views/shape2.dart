@@ -60,7 +60,7 @@ class _SquidGameShape2ScreenState extends State<SquidGameShape2Screen>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Moving Squid Game Shapes"),
+        title: Text("Moving Squid Game Shape two"),
         backgroundColor: Colors.black,
       ),
       body: Center(

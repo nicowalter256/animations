@@ -5,7 +5,7 @@ class SquidGameShape extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Squid Game Shapes"),
+        title: Text("Squid Game Shape one"),
         backgroundColor: Colors.black,
       ),
       body: Center(
@@ -24,7 +24,7 @@ class SquidGameShapesPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
       ..style = PaintingStyle.fill
-      ..color = Colors.blue; // Default shape color
+      ..color = Colors.redAccent; // Default shape color
 
     // Draw the Circle (representing the "O" shape)
     drawCircle(canvas, size, paint);

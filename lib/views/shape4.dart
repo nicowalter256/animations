@@ -16,7 +16,7 @@ class _SquidGameShape4ScreenState extends State<SquidGameShape4Screen>
   late Animation<double> _squareVisibilityAnimation;
   late Animation<double> _triangleVisibilityAnimation;
   final random = Random();
-  bool isRedLight = true;
+  bool isRedLight = false;
 
   @override
   void initState() {

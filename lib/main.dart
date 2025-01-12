@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'views/animation_two.dart';
 import 'views/home_screen.dart';
 import 'views/shaders/linear_gradient_shader.dart';
+import 'views/shaders/radial_gradient_shader.dart';
 import 'views/shape1.dart';
 import 'views/shape2.dart';
 import 'views/shape3.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LinearGradientShaderExample(),
+      home: RadialGradientShaderExample(),
     );
   }
 }

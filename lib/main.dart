@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'views/3d_slider.dart';
 import 'views/animation_two.dart';
 import 'views/home_screen.dart';
 import 'views/shaders/custom_shader.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: GradientShaderMaskExample(),
+      home: Animated3DSlider(),
     );
   }
 }

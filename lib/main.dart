@@ -11,6 +11,7 @@ import 'views/shape1.dart';
 import 'views/shape2.dart';
 import 'views/shape3.dart';
 import 'views/shape4.dart';
+import 'views/tap_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Animated3DSlider(),
+      home: GestureDrivenAnimationExample(),
     );
   }
 }
